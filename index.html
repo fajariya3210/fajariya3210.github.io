@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Computer Base test</title>
+        
+    <link rel="stylesheet" href="style.css"> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+
+      <div id="container">
+          <div id="konten">
+                  <h1 id='judul' style="font-style:oblique">Looping Test</h1>
+                 <br>
+                  <h5 style="font-style:italic"">Jumlah Pertanyaan 5 soal.<br> Jika anda berhasil menjawab 1 pertanyaan maka point bertambah 20. <br>Jika anda gagal menjawab 1 pertanyaan maka point berkurang 10.<br>
+              Jika point anda di atas 70 maka akan menang.<br> Jika point anda di bawah 70 maka anda kalah.</h5>
+              <P id="durasi" class="durasi2">TIMER</P>           
+                  
+          </div>
+
+          <div id="questionContainer" class="questionContainer">
+              <div style="color:blue" id="pertanyaannya" class="pertanyaannya2"></div>
+              <br>
+              <button id="option1" class="optionButton1"></button>
+              <button id="option2" class="optionButton2"></button>
+              <button id="option3" class="optionButton3"></button>
+              <button id="option4" class="optionButton4"></button>
+              <br><br>
+              <button id="kirimJawaban" class="ButtonKirimJawaban" onclick="loadNextQuestion()">Jawab Pertanyaan</button>
+          </div>
+
+          <p id="hasilPoint"> </p>
+          <p style="font-size:20pt" id="hasilAkhirPoint"> </p>
+          <p id="jawabBenar"> </p>
+          <p id="jawabSalah"> </p>
+          <p id="ucapanAkhir"> </p>
+         <!-- <button id="buttonMulaiLagi" onclick="loadQuestion()">Mulai Lagi</button> -->
+
+         
+          
+
+      </div>
+      <div id="footer" style="color:white">Fajariyanto | Hacktiv8</div>
+      
+      <script src='pertanyaan.js'></script>
+  
+</body>
+
+</html>

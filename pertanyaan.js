@@ -63,8 +63,8 @@
    document.getElementById("durasi").innerHTML = "Waktu Anda Habis"
    if(document.getElementById("durasi").innerHTML = "Waktu Anda Habis" && totalPertanyaan === 0){
     blockPertanyaan();
-    document.getElementById("durasi").innerHTML = " Waktu Anda Habis"
-    document.getElementById("hasilAkhirPoint").innerHTML = " Dan Anda Belum Menjawab Pertanyaan Satupun"
+    document.getElementById("durasi").innerHTML = " Waktu " + namaPeserta + " Habis"
+    document.getElementById("hasilAkhirPoint").innerHTML = " Dan Belum Menjawab Satupun Pertanyaan"
 
   }
   }

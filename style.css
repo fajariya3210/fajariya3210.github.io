@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color:blue;
+    text-align: center;
+  }
+  
+  #judul{
+    font-size: 20pt;
+      color:white;
+      font-style: oblique;
+      text-align: center;
+      background-color: blue;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      margin: 0px 0px 0px;
+
+
+  }
+
+  .durasi2{
+    color: red;
+    font-size: 30pt;
+  }
+  h5{
+    padding-top: 0%;
+    font-size: 20pt;
+    margin: 0px 0px 0px;
+  }
+  
+  
+   
+  #footer {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 12pt;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:blue;
+    color: white;
+    text-align: center;
+      
+  }
+  
+  .optionButton1 {
+  
+    background: blue;
+    padding: 1%;
+    margin: 1%;
+    width: 40%;
+    color: white;
+    border: 2;
+    border-radius: 10px;
+    font-size: 20px;
+    
+  }
+  
+  .optionButton1:hover{
+    background: rgb(6, 45, 83);
+  }
+  
+  .optionButton2 {
+    
+    background: blue;
+    padding: 1%;
+    margin: 1%;
+    width: 40%;
+    color: white;
+    border: 2;
+    border-radius: 10px;
+    font-size: 20px;
+    
+  }
+  
+  .optionButton2:hover{
+    background: rgb(6, 45, 83);
+  }
+  
+  .optionButton3 {
+    
+    background: blue;
+    padding: 1%;
+    margin: 1%;
+    width: 40%;
+    color: white;
+    border: 2;
+    border-radius: 10px;
+    font-size: 20px;
+    
+  }
+  
+  .optionButton3:hover{
+    background: rgb(6, 45, 83);
+  }
+  
+  .optionButton4 {
+    
+    background: blue;
+    padding: 1%;
+    margin: 1%;
+    width: 40%;
+    color: white;
+    border: 2;
+    border-radius: 10px;
+    font-size: 20px;
+    
+  }
+  
+  .optionButton4:hover{
+    background: rgb(6, 45, 83);
+  }
+  
+  .ButtonKirimJawaban {
+    position: relative;
+    background:rgb(14, 38, 62);
+    padding: 1%;
+    margin: 1%;
+    width: 40%;
+    color: white;
+    border: 2;
+    border-radius: 10px;
+    font-size: 20px;
+    
+    
+
+  }
+  
+  .ButtonKirimJawaban:hover{
+    background: rgb(6, 12, 17);
+  }
+
+  #buttonMulaiLagi{
+    position: relative;
+    background:rgb(14, 38, 62);
+    padding: 1%;
+    margin: 1%;
+    width: 40%;
+    color: white;
+    border: 2;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+
+  #buttonMulaiLagi:hover{
+    background: rgb(6, 12, 17);
+  }

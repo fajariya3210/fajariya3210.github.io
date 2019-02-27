@@ -65,8 +65,24 @@
     blockPertanyaan();
     document.getElementById("durasi").innerHTML = " Waktu " + namaPeserta + " Habis"
     document.getElementById("hasilAkhirPoint").innerHTML = " Dan Belum Menjawab Satupun Pertanyaan"
+    console.log(totalPertanyaan)
 
   }
+
+  if(document.getElementById("durasi").innerHTML = "Waktu Anda Habis" && totalPertanyaan < jumlahSoal ){
+    blockPertanyaan();
+    document.getElementById("durasi").innerHTML = " Waktu " + namaPeserta + " Habis"
+    document.getElementById("hasilAkhirPoint").innerHTML = "Dan " + namaPeserta + " hanya menjawab " + totalPertanyaan + " Soal"
+    document.getElementById("jawabBenar").innerHTML = namaPeserta + " mendapatkan " + point + " point"
+    document.getElementById("jawabSalah").innerHTML = "Total Jawaban Benar " + namaPeserta + " : " + totalJawabBenar + " pertanyaan"
+    document.getElementById("ucapanAkhir").innerHTML = "Total Jawaban Salah " + namaPeserta + " : " + totalJawabSalah + " pertanyaan"
+  if(point >= 70){
+    alert("Selamat Anda Menang")
+  }else{
+    alert("Maaf Anda Gagal")
+  }
+  }
+
   }
   }
   
@@ -94,6 +110,7 @@ var point = 0
 namaPeserta = ''
 
 totalPertanyaan = 0
+jumlahSoal = DaftarSoal.length
 
 var urutanSoal = 0
 var totalJawabBenar = 0
